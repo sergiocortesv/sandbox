@@ -1,0 +1,14 @@
+openapi: 3.0.1
+info:
+  title: Vistracks API
+  description: This is the Vistracks api.
+  version: 1.0.0
+servers:
+  - url: https://virtserver.swaggerhub.com/hos30/Vistracks/1.0.0
+  - url: http://virtserver.swaggerhub.com/hos30/Vistracks/1.0.0
+paths:
+  /api/v2/accountProperties/{recordIds}:
+    get:
+      tags:
+        - accountProperties
+      operationId: getAccountProperties
