@@ -18,3 +18,9 @@ paths:
         - driverStatus
       summary: Get driver status stats
       operationId: getDriverStatusStats
+  /api/v2/driverStatuses/archive/{recordIds}:
+    get:
+      tags:
+      - driverStatus
+      summary: Get driver status archives
+      operationId: getDriverStatusArchives
