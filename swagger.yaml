@@ -12,3 +12,9 @@ paths:
       tags:
         - accountProperties
       operationId: getAccountProperties
+  /api/v2/driverStatuses/archive/{recordIds}:
+    get:
+      tags:
+      - driverStatus
+      summary: Get driver status archives
+      operationId: getDriverStatusArchives
